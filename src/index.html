@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Long Press Button Tutorial</title>
+
+    <script type="module" src="/build/long-press-button.esm.js"></script>
+    <script nomodule src="/build/long-press-button.js"></script>
+  </head>
+  <body>
+    <long-press-button>Press Me!</long-press-button>
+
+    <script>
+      document.getElementsByTagName('long-press-button')[0].addEventListener('longPress', () => {
+        console.log('long press');
+      });
+    </script>
+  </body>
+</html>

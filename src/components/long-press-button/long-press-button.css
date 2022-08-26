@@ -1,0 +1,23 @@
+.container {
+  display: block;
+  position: relative;
+  width: fit-content;
+}
+
+button {
+  padding: 0;
+  border: none;
+  height: 90px;
+  width: 90px;
+  border-radius: 99rem;
+  background: rgb(15, 30, 55);
+  color: rgb(233, 237, 243);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+svg {
+  display: block;
+}
